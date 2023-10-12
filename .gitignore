@@ -189,3 +189,5 @@ lint/tmp/
 # Android Profiling
 *.hprof
 
+android/.idea
+.idea/

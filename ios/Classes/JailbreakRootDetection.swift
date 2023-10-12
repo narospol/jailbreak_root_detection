@@ -19,6 +19,17 @@ class JailbreakRootDetection {
         let fridaFound = FridaChecker.isFound()
         let cydiaFound = CydiaChecker.isFound()
         
+        let results: [String: Bool] = [
+            "isJailBroken": isJailBroken,
+            "amJailbroken": amJailbroken,
+            "amDebugged": amDebugged,
+            "amReverseEngineered": amReverseEngineered,
+            "amProxied": amProxied,
+            "fridaFound": fridaFound,
+            "cydiaFound": cydiaFound,
+        ]
+        print("JailBroken Info:", results)
+        
         return isJailBroken
         || amJailbroken
         || amDebugged

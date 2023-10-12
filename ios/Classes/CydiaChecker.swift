@@ -16,9 +16,6 @@ class CydiaChecker {
         if FileManager.default.fileExists(atPath: "/Library/MobileSubstrate/MobileSubstrate.dylib") {
             return true
         }
-        if FileManager.default.fileExists(atPath: "/bin/bash") {
-            return true
-        }
         let system = NSString(string: "system").utf8String
         var s = stat()
         if stat(system, &s) == 0 {

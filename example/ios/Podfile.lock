@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - IOSSecuritySuite (1.9.9)
+  - jailbreak_root_detection (1.0.0):
+    - Flutter
+    - IOSSecuritySuite (~> 1.9.5)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - jailbreak_root_detection (from `.symlinks/plugins/jailbreak_root_detection/ios`)
+
+SPEC REPOS:
+  trunk:
+    - IOSSecuritySuite
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  jailbreak_root_detection:
+    :path: ".symlinks/plugins/jailbreak_root_detection/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  IOSSecuritySuite: 72c55371aafe586196c325a8348319c36d385ce4
+  jailbreak_root_detection: 76a7f696b9bf63e57d10f8d30d1bda0001b95fd3
+
+PODFILE CHECKSUM: ef19549a9bc3046e7bb7d2fab4d021637c0c58a3
+
+COCOAPODS: 1.13.0
